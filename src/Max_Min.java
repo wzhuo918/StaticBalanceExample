@@ -71,7 +71,7 @@ public class Max_Min {
 				}
 				if(each < min){
 					min = each;
-				}
+				} 
 			}
 			
 			str = br.readLine();
