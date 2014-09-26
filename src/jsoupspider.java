@@ -224,7 +224,7 @@ public class jsoupspider {
 		 * url 为某job的入口url
 		 */
 		 String onejoburl =
-		 "http://172.19.0.164:50030/jobdetailshistory.jsp?logFile=file:/home/wzhuo/hadoop-1.1.2/logs/history/done/version-1/test164_1402565546179_/2014/06/12/000000/job_201406121732_0002_1402565814943_wzhuo_native%2Bpagerank%2Br20%2Buk";
+		 "http://172.19.0.164:50030/jobdetailshistory.jsp?logFile=file:/home/wzhuo/hadoop-1.1.2/logs/history/done/version-1/test164_1411413807950_/2014/09/23/000000/job_201409230323_0001_1411413866417_wzhuo_german%2BSoreSort%2Br60";
 
 		//String onejoburl = href_to_url(eachjob);
 		// System.out.println("onejobburl!!!!" + onejoburl);
