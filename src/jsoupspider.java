@@ -189,7 +189,7 @@ public class jsoupspider {
 		/**
 		 * 遍历所有href的href标签，读取各个job的主页面
 		 */
-		String jobhistory = "http://172.19.0.164:50030/jobhistoryhome.jsp?pageno=1&search=&scansize=2";
+		String jobhistory = "http://172.19.0.164:50030/jobhistoryhome.jsp";
 		Document jobdoc = Jsoup.connect(jobhistory).get();
 		Elements links = jobdoc.select("a[href]");
 		//System.out.println("links！！！" + links);
@@ -224,7 +224,7 @@ public class jsoupspider {
 		 * url 为某job的入口url
 		 */
 		 String onejoburl =
-		 "http://172.19.0.164:50030/jobdetailshistory.jsp?logFile=file:/home/wzhuo/hadoop-1.1.2/logs/history/done/version-1/test164_1411413807950_/2014/09/23/000000/job_201409230323_0001_1411413866417_wzhuo_german%2BSoreSort%2Br60";
+		 "http://172.19.0.164:50030/jobdetailshistory.jsp?logFile=file:/home/wzhuo/hadoopyouli/logs/history/done/version-1/test164_1453440492163_/2016/01/22/000000/job_201601221328_0001_1453440557348_wzhuo_german%2Bd20%2Bz10";
 
 		//String onejoburl = href_to_url(eachjob);
 		// System.out.println("onejobburl!!!!" + onejoburl);

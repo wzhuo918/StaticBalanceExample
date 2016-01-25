@@ -230,7 +230,7 @@ public class SpiderAlljobs {
 		//String onejoburl = href_to_url(eachjob);
 		// System.out.println("onejobburl!!!!" + onejoburl);
 		// get_map_info(url); //调用map的统计函数
-		//get_reduce_info(onejoburl); // 调用reduce输入的统计函数
+		// get_reduce_info(onejoburl); // 调用reduce输入的统计函数
 		fo.close();
 	}// main
 }

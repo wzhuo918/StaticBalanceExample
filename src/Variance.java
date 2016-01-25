@@ -39,7 +39,7 @@ public class Variance {
 		
 		long avg = (long) (sum / num);
 		// System.out.println("num是：" + num );
-		 System.out.println("sum是：" + sum );
+		// System.out.println("sum是：" + sum );
 		// System.out.println("avg是：" +avg);
 		return avg;
 	}
@@ -63,8 +63,12 @@ public class Variance {
 		}
 		// System.out.println("sum" + sum);
 		var = sum / num;// 方差
-		System.out.println("方差是:" + var);
+		System.out.println("avg是:" + avg);
+		
+		//System.out.println("方差是:" + var);
 
 		System.out.println("标准差是：" + Math.sqrt(var));
+		
+		System.out.println("离散系数：" + (Math.sqrt(var)/avg) );
 	}
 }
